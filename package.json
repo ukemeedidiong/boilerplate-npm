@@ -1,6 +1,7 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
+		"@freecodecamp/example": "^MAJOR.MINOR.PATCH",
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
@@ -11,7 +12,10 @@
 		"type": "git",
 		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
 	},
-	
-	"author": "Nyebuk Sampson Inyang"
+
+	"description": "A project that does something awesome",
+	"keywords": [ "descriptive", "related", "words", "freeCodeCamp" ],
+	"license": "MIT",
+	"author": "Jane Doe"
 
 }
